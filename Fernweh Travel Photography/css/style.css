@@ -13,15 +13,15 @@
   font-weight: bold;
 }
 .name {
-	background: #778899;
-  width: 440px;
+	background: #FFFFFF;
+  width: 600px;
   margin: 0 auto 20px;
   border-radius: 5px;
   padding: 40px 20px;
 	font-family: verdana;
 	font-weight: bold;
   text-align: center;
-  font-size: 48px
+  font-size: 40px
 }
 .name span {
   color: #191970;
@@ -77,4 +77,48 @@ a {
 
 #overlay p {
  color:white;
+}
+
+/*Grid*/
+.grid-full {
+  width: 100%;
+  float: left;
+}
+.grid-half {
+  width: 50%;
+  float: left;
+}
+.grid-third {
+  width: 50%;
+  margin: 0 7%;
+  float: center;
+}
+.grid-fourth {
+  width: 25%;
+  float: left;
+}
+.grid-fifth {
+  width: 20%;
+  float: left;
+}
+/*Nav*/
+nav {
+  float: right;
+}
+nav a {
+  transition: .35s linear;
+  padding: 0 10px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #B1B9C1;
+  text-align: right;
+}
+nav a:last-child {
+  padding-right: 0;
+}
+nav a:hover {
+  color: #333;
+}
+nav a.active {
+  color: #465058
 }

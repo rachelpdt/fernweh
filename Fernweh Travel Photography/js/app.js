@@ -1,9 +1,3 @@
-function myCode() {
-  $(".greeting").hide().show("slow");
-}
-  $(document).ready(myCode);
-
-
 // Create an overlay with the large image - Lightbox
 
 var $overlay = $('<div id="overlay"></div>');
@@ -30,12 +24,10 @@ $("#France a").click(function(event){
   $overlay.show();
 
   //Get child's alt attribute and set caption
-  var captionText = $(this).children("img").attr("alt");
+  var captionText = $(this).children("images").attr("alt");
   $caption.text(captionText);
 });
 
-
-//Practice Start
 //Capture the click event on a link to an image
 $("#Spain a").click(function(event){
   event.preventDefault();
@@ -50,7 +42,22 @@ $("#Spain a").click(function(event){
   var captionText = $(this).children("img").attr("alt");
   $caption.text(captionText);
 });
-//Practice End
+
+//Capture the click event on a link to an image
+$("#Germany a").click(function(event){
+  event.preventDefault();
+  var imageLocation = $(this).attr("href");
+  //Update overlay with the image linked in the link
+  $image.attr("src", imageLocation);
+
+  //Show the overlay.
+  $overlay.show();
+
+  //Get child's alt attribute and set caption
+  var captionText = $(this).children("img").attr("alt");
+  $caption.text(captionText);
+});
+
 
 //When overlay is clicked
 $overlay.click(function(){
