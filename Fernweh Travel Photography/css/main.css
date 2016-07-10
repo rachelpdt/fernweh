@@ -100,7 +100,7 @@ nav {
   float: right;
 }
 nav a {
-  transition: .35s linear;
+  transition: .45s linear;
   padding: 0 10px;
   font-weight: 500;
   line-height: 60px;
@@ -119,9 +119,9 @@ nav a.active {
 
 /*Button*/
 .button {
-  border: 2px solid #D5DDE4;
+  border: 4px solid #D5DDE4;
   border-radius: 4px;
-  padding: 12px 20px;
+  padding: 7px 12px;
   color: #777B7E;
   transition: .35s;
   font-weight: 400;
