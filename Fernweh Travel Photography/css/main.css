@@ -1,16 +1,9 @@
-/*
-  AGENCY - A Treehouse template
-  by: http://teamtreehouse.com
-  v.1.0.1
-  License: MIT http://opensource.org/licenses/MIT
-*/
-
 /*Main*/
 
 
 body{
   color: #B1B9C1;
-  background-color: #222;
+  background-color: #3d3d5c;
   font-size: 1em;
   font-weight: 200;
   font-family: 'Roboto', Helvetica, Arial, serif;
@@ -19,16 +12,12 @@ body{
 }
 
 a {
-  color: #5FB6E1;
+  color: #e60099;
   text-decoration: none;
 }
 
 a:hover {
   color: #53A4C4;
-}
-
-img {
-  width: 100%;
 }
 
 ul li {
@@ -45,6 +34,7 @@ ul li {
 /*Typography*/
 p {
   margin-bottom: 40px;
+  font-weight: 500;
 }
 h1, h2 {
   font-weight: 400;
@@ -60,14 +50,15 @@ h2 {
 }
 h3 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 26px;
   margin: 40px 0 0;
-  color: #465058;
+  color: #DDD;
 }
 h4 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   margin: 10px 0 0;
+  color: #40bf80;
 }
 h5 {
   font-weight: 300;
@@ -104,7 +95,8 @@ nav a {
   padding: 0 10px;
   font-weight: 500;
   line-height: 60px;
-  color: #B1B9C1;
+  font-size: 1.15em;
+  color: #009900;
   text-align: right;
 }
 nav a:last-child {
@@ -114,16 +106,16 @@ nav a:hover {
   color: #333;
 }
 nav a.active {
-  color: #465058
+  color: #b8c0c6
 }
 
 /*Button*/
 .button {
   border: 4px solid #D5DDE4;
   border-radius: 4px;
-  padding: 7px 12px;
+  padding: 7px 7px;
   color: #777B7E;
-  transition: .35s;
+  transition: .55s;
   font-weight: 400;
 }
 
@@ -142,34 +134,21 @@ footer {
   margin: 0;
   padding: 0;
 }
-.social li a {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  border: 10px solid #ccc;
-  opacity: .65;
-  transition: .35s linear;
-}
-.social li a:hover {
-  opacity: 1;
-}
-.social .pink {
-  border-color: #FF8DB3
-}
-.social .light-blue {
-  border-color: #7CCEEE
-}
-.social .dark-blue {
-  border-color: #3E89BE
+
+.social-icon {
+  width: 40px;
+  height: 35px;
+  margin: 10px 10px;
+  border-color: #FFFFFF;
+  background: #3d3d5c;
 }
 
 
-/*Team*/
-.team {
+/*Countries*/
+.countries {
   margin-bottom: 60px;
 }
-.avatar {
+.photos {
   width: 60%;
   display: block;
   border-radius: 15%;

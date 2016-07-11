@@ -14,21 +14,21 @@
 }
 .name {
 	background: #FFFFFF;
-  width: 600px;
+  width: 50%;
   margin: 0 auto 20px;
   border-radius: 5px;
   padding: 40px 20px;
 	font-family: verdana;
 	font-weight: bold;
   text-align: center;
-  font-size: 40px
+  font-size: 36px
 }
 .name span {
   color: #191970;
 }
 body {
 	font-family: sans-serif;
-	background: #384047;
+	background: #24478f;
 }
 h1 {
 	color: #fff;
@@ -108,9 +108,9 @@ nav {
 nav a {
   transition: .35s linear;
   padding: 0 10px;
-  font-weight: 500;
-  line-height: 60px;
-  color: #B1B9C1;
+  font-weight: 600;
+  line-height: 80px;
+  color: #00b359;
   text-align: right;
 }
 nav a:last-child {
