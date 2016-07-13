@@ -44,7 +44,7 @@ ul {
 	text-align: center;
 }
 ul li {
-	display: inline-block;
+	display: inline-flex;;
 	padding: 8px;
 	background:white;
 	margin:10px;
