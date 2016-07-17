@@ -17,6 +17,8 @@
 
 /* global window, document, define, jQuery, setInterval, clearInterval */
 
+alert("Fernweh\n \n An ache for distant places; the crave for travel.");
+
 (function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -1285,7 +1287,7 @@
             targetImage.attr('src', targetImage.attr('data-lazy')).removeClass('slick-loading').load(function() {
                 targetImage.removeAttr('data-lazy');
                 _.progressiveLazyLoad();
-                
+
                 if( _.options.adaptiveHeight === true ) {
                     _.setPosition();
                 }
